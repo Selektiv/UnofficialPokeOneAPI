@@ -1,16 +1,4487 @@
-{
-    "mater ball": {
-        "name": "Master Ball",
-        "type": "balls",
-        "description": "The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.",
-        "price_buy": "$",
-        "price_sell": "$"
-    },
-    "name": {
-        "name": "name",
-        "type": "type",
-        "description": "description",
-        "price_buy": "$",
-        "price_sell": "$"
-    }
+"Ability Capsule":{
+  "name":"Ability Capsule"
+  ,"type":"hold_items"
+  ,"description":"A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ability Urge":{
+  "name":"Ability Urge"
+  ,"type":"battle_items"
+  ,"description":"When used, it activates the Ability of an ally Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Abomasite":{
+  "name":"Abomasite"
+  ,"type":"hold_items"
+  ,"description":"Enables Abomasnow to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Absolite":{
+  "name":"Absolite"
+  ,"type":"hold_items"
+  ,"description":"Enables Absol to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Absorb Bulb":{
+  "name":"Absorb Bulb"
+  ,"type":"hold_items"
+  ,"description":"A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Adamant Orb":{
+  "name":"Adamant Orb"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Dragon- and Steel-type moves when held by Dialga."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Adrenaline Orb":{
+  "name":"Adrenaline Orb"
+  ,"type":"hold_items"
+  ,"description":"Using it makes wild Pokémon more likely to call for help. If held by a Pokémon, it boosts Speed when intimidated. It can be used only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Aerodactylite":{
+  "name":"Aerodactylite"
+  ,"type":"hold_items"
+  ,"description":"Enables Aerodactyl to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Aggronite":{
+  "name":"Aggronite"
+  ,"type":"hold_items"
+  ,"description":"Enables Aggron to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Aguav Berry":{
+  "name":"Aguav Berry"
+  ,"type":"berries"
+  ,"description":"Restores HP if it's low, but may cause confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Air Balloon":{
+  "name":"Air Balloon"
+  ,"type":"hold_items"
+  ,"description":"When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Alakazite":{
+  "name":"Alakazite"
+  ,"type":"hold_items"
+  ,"description":"Enables Alakazam to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Aloraichium Z":{
+  "name":"Aloraichium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Alolan Raichu to upgrade Thunderbolt to a Z-Move, Stoked Sparksurfer."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Altarianite":{
+  "name":"Altarianite"
+  ,"type":"hold_items"
+  ,"description":"Enables Altaria to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ampharosite":{
+  "name":"Ampharosite"
+  ,"type":"hold_items"
+  ,"description":"Enables Ampharos to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Amulet Coin":{
+  "name":"Amulet Coin"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Antidote":{
+  "name":"Antidote"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It lifts the effect of poison from one Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Apicot Berry":{
+  "name":"Apicot Berry"
+  ,"type":"berries"
+  ,"description":"Raises Special Defense when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Armor Fossil":{
+  "name":"Armor Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Aspear Berry":{
+  "name":"Aspear Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it defrosts it."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Assault Vest":{
+  "name":"Assault Vest"
+  ,"type":"hold_items"
+  ,"description":"Raises Special Defense but prevents the use of status moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Audinite":{
+  "name":"Audinite"
+  ,"type":"hold_items"
+  ,"description":"Enables Audino to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Awakening":{
+  "name":"Awakening"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It awakens a Pokémon from the clutches of sleep."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Babiri Berry":{
+  "name":"Babiri Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Steel-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Balm Mushroom":{
+  "name":"Balm Mushroom"
+  ,"type":"general_items"
+  ,"description":"A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Banettite":{
+  "name":"Banettite"
+  ,"type":"hold_items"
+  ,"description":"Enables Banette to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Beast Ball":{
+  "name":"Beast Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Beedrillite":{
+  "name":"Beedrillite"
+  ,"type":"hold_items"
+  ,"description":"Enables Beedrill to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Belue Berry":{
+  "name":"Belue Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Berry Juice":{
+  "name":"Berry Juice"
+  ,"type":"medicine"
+  ,"description":"A 100% pure juice made of berries. It restores the HP of one Pokémon by just 20 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Big Malasada":{
+  "name":"Big Malasada"
+  ,"type":"medicine"
+  ,"description":"The Alola region’s local specialty—fried bread. It can be used once to heal all the status conditions of a Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Big Mushroom":{
+  "name":"Big Mushroom"
+  ,"type":"general_items"
+  ,"description":"A large and rare mushroom. It is sought after by collectors."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Big Nugget":{
+  "name":"Big Nugget"
+  ,"type":"general_items"
+  ,"description":"A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Big Pearl":{
+  "name":"Big Pearl"
+  ,"type":"general_items"
+  ,"description":"A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Big Root":{
+  "name":"Big Root"
+  ,"type":"hold_items"
+  ,"description":"Recovers more HP from HP-stealing moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Binding Band":{
+  "name":"Binding Band"
+  ,"type":"hold_items"
+  ,"description":"A band that increases the power of binding moves when held."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Black Apricorn":{
+  "name":"Black Apricorn"
+  ,"type":"general_items"
+  ,"description":"A black Apricorn It has an indescribable scent."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Black Belt":{
+  "name":"Black Belt"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Fighting-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Black Flute":{
+  "name":"Black Flute"
+  ,"type":"general_items"
+  ,"description":"A toy flute made from black glass. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Black Glasses":{
+  "name":"Black Glasses"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Dark-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Black Sludge":{
+  "name":"Black Sludge"
+  ,"type":"hold_items"
+  ,"description":"A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blastoisinite":{
+  "name":"Blastoisinite"
+  ,"type":"hold_items"
+  ,"description":"Enables Blastoise to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blazikenite":{
+  "name":"Blazikenite"
+  ,"type":"hold_items"
+  ,"description":"Enables Blaziken to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blue Apricorn":{
+  "name":"Blue Apricorn"
+  ,"type":"general_items"
+  ,"description":"A blue Apricorn. It smells a bit like grass."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blue Flute":{
+  "name":"Blue Flute"
+  ,"type":"general_items"
+  ,"description":"A toy flute made from blue glass. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blue Scarf":{
+  "name":"Blue Scarf"
+  ,"type":"general_items"
+  ,"description":"Raises holder's Beauty aspect in a Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Blue Shard":{
+  "name":"Blue Shard"
+  ,"type":"general_items"
+  ,"description":"A small blue shard. It appears to be from some sort of implement made long ago."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Bluk Berry":{
+  "name":"Bluk Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Bottle Cap":{
+  "name":"Bottle Cap"
+  ,"type":"general_items"
+  ,"description":"A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Bright Powder":{
+  "name":"Bright Powder"
+  ,"type":"hold_items"
+  ,"description":"Lowers the opponent’s accuracy."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Bug Gem":{
+  "name":"Bug Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Bug-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Bug Memory":{
+  "name":"Bug Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Bug-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Buginium Z":{
+  "name":"Buginium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Savage Spin-Out, the Bug type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Burn Drive":{
+  "name":"Burn Drive"
+  ,"type":"hold_items"
+  ,"description":"Changes Techno Blast to a Fire-type move when held by Genesect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Burn Heal":{
+  "name":"Burn Heal"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It heals a single Pokémon that is suffering from a burn."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Calcium":{
+  "name":"Calcium"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cameruptite":{
+  "name":"Cameruptite"
+  ,"type":"hold_items"
+  ,"description":"Enables Camerupt to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Carbos":{
+  "name":"Carbos"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Casteliacone":{
+  "name":"Casteliacone"
+  ,"type":"medicine"
+  ,"description":"Castelia City’s specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cell Battery":{
+  "name":"Cell Battery"
+  ,"type":"hold_items"
+  ,"description":"A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Charcoal":{
+  "name":"Charcoal"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Fire-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Charizardite X":{
+  "name":"Charizardite X"
+  ,"type":"hold_items"
+  ,"description":"Enables Charizard to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Charizardite Y":{
+  "name":"Charizardite Y"
+  ,"type":"hold_items"
+  ,"description":"Enables Charizard to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Charti Berry":{
+  "name":"Charti Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Rock-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cheri Berry":{
+  "name":"Cheri Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from paralysis."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cherish Ball":{
+  "name":"Cherish Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Chesto Berry":{
+  "name":"Chesto Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from sleep."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Chilan Berry":{
+  "name":"Chilan Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a Normal-type attack against the Pokémon holding this berry."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Chill Drive":{
+  "name":"Chill Drive"
+  ,"type":"hold_items"
+  ,"description":"Changes Techno Blast to an Ice-type move when held by Genesect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Choice Band":{
+  "name":"Choice Band"
+  ,"type":"hold_items"
+  ,"description":"Raises Attack, but only one move can be used."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Choice Scarf":{
+  "name":"Choice Scarf"
+  ,"type":"hold_items"
+  ,"description":"Raises Speed, but only one move can be used."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Choice Specs":{
+  "name":"Choice Specs"
+  ,"type":"hold_items"
+  ,"description":"Raises Special Attack, but only one move can be used."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Chople Berry":{
+  "name":"Chople Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Fighting-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Claw Fossil":{
+  "name":"Claw Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cleanse Tag":{
+  "name":"Cleanse Tag"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Clever Wing":{
+  "name":"Clever Wing"
+  ,"type":"medicine"
+  ,"description":"Increases Special Defense EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Coba Berry":{
+  "name":"Coba Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Flying-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Colbur Berry":{
+  "name":"Colbur Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Dark-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Colress Machine":{
+  "name":"Colress Machine"
+  ,"type":"hold_items"
+  ,"description":"A special device that wrings out the potential of Pokémon. It is an imperfect prototype."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Comet Shard":{
+  "name":"Comet Shard"
+  ,"type":"general_items"
+  ,"description":"A shard which fell to the ground when a comet approached. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cornn Berry":{
+  "name":"Cornn Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Cover Fossil":{
+  "name":"Cover Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Custap Berry":{
+  "name":"Custap Berry"
+  ,"type":"berries"
+  ,"description":"Holder can move first when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Damp Mulch":{
+  "name":"Damp Mulch"
+  ,"type":"general_items"
+  ,"description":"A fertilizer to be spread on soft soil in regions where berries are grown. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Damp Rock":{
+  "name":"Damp Rock"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of the move Rain Dance used by the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dark Gem":{
+  "name":"Dark Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Dark-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dark Memory":{
+  "name":"Dark Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Dark-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Darkinium Z":{
+  "name":"Darkinium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Black Hole Eclipse, the Dark type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dawn Stone":{
+  "name":"Dawn Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Decidium Z":{
+  "name":"Decidium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Decidueye to upgrade Spirit Shackle to a Z-Move, Sinister Arrow Raid."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Deep Sea Scale":{
+  "name":"Deep Sea Scale"
+  ,"type":"hold_items"
+  ,"description":"Increases Special Defense when held by Clamperl."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Deep Sea Tooth":{
+  "name":"Deep Sea Tooth"
+  ,"type":"hold_items"
+  ,"description":"Increases Special Attack when held by Clamperl."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Destiny Knot":{
+  "name":"Destiny Knot"
+  ,"type":"hold_items"
+  ,"description":"A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, the foe does too."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Diancite":{
+  "name":"Diancite"
+  ,"type":"hold_items"
+  ,"description":"Enables Diancie to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dire Hit":{
+  "name":"Dire Hit"
+  ,"type":"battle_items"
+  ,"description":"Raises critical-hit ratio of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dire Hit 2":{
+  "name":"Dire Hit 2"
+  ,"type":"battle_items"
+  ,"description":"Raises a Pokémon's critical-hit ratio in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dire Hit 3":{
+  "name":"Dire Hit 3"
+  ,"type":"battle_items"
+  ,"description":"Greatly raises a Pokémon’s critical-hit ratio in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Discount Coupon":{
+  "name":"Discount Coupon"
+  ,"type":"general_items"
+  ,"description":"This special coupon allows you to buy items at a discount when you are shopping at a boutique."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dive Ball":{
+  "name":"Dive Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that works especially well on Pokémon that live underwater."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"DNA Splicers":{
+  "name":"DNA Splicers"
+  ,"type":"general_items"
+  ,"description":"A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dome Fossil":{
+  "name":"Dome Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Douse Drive":{
+  "name":"Douse Drive"
+  ,"type":"hold_items"
+  ,"description":"Changes Techno Blast to a Water-type move when held by Genesect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Draco Plate":{
+  "name":"Draco Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Dragon-type moves. Changes Arceus' type to Dragon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dragon Fang":{
+  "name":"Dragon Fang"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Dragon-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dragon Gem":{
+  "name":"Dragon Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Dragon-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dragon Memory":{
+  "name":"Dragon Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Dragon-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dragon Scale":{
+  "name":"Dragon Scale"
+  ,"type":"general_items"
+  ,"description":"A thick and tough scale. Dragon-type Pokémon may be holding this item when caught."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dragonium Z":{
+  "name":"Dragonium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Devastating Drake, the Dragon type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dread Plate":{
+  "name":"Dread Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Dark-type moves. Changes Arceus' type to Dark."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dream Ball":{
+  "name":"Dream Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A special Poké Ball that appears out of nowhere in a bag at the Entree Forest. It can catch any Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dropped Item":{
+  "name":"Dropped Item"
+  ,"type":"hold_items"
+  ,"description":"The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a boy."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dubious Disc":{
+  "name":"Dubious Disc"
+  ,"type":"general_items"
+  ,"description":"A transparent device overflowing with dubious data. Its producer is unknown."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Durin Berry":{
+  "name":"Durin Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dusk Ball":{
+  "name":"Dusk Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Dusk Stone":{
+  "name":"Dusk Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Earth Plate":{
+  "name":"Earth Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Ground-type moves. Changes Arceus' type to Ground."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Eevium Z":{
+  "name":"Eevium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Eevee to upgrade Last Resort to a Z-Move, Extreme Evoboost."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Eject Button":{
+  "name":"Eject Button"
+  ,"type":"hold_items"
+  ,"description":"If the holder is hit by an attack, it will switch with another Pokémon in your party."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Electirizer":{
+  "name":"Electirizer"
+  ,"type":"general_items"
+  ,"description":"A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Electric Gem":{
+  "name":"Electric Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of an Electric-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Electric Memory":{
+  "name":"Electric Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Electric-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Electric Seed":{
+  "name":"Electric Seed"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Electrium Z":{
+  "name":"Electrium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Gigavolt Havoc, the Electric type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Elevator Key":{
+  "name":"Elevator Key"
+  ,"type":"hold_items"
+  ,"description":"A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare’s logo."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Elixir":{
+  "name":"Elixir"
+  ,"type":"medicine"
+  ,"description":"It restores the PP of all the moves learned by the targeted Pokémon by 10 points each."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Energy Powder":{
+  "name":"Energy Powder"
+  ,"type":"medicine"
+  ,"description":"Restores 60 HP but lowers happiness."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Energy Root":{
+  "name":"Energy Root"
+  ,"type":"medicine"
+  ,"description":"Restores 120 HP but lowers happiness."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Enigma Berry":{
+  "name":"Enigma Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it restores its HP if it is hit by any supereffective attack."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Escape Rope":{
+  "name":"Escape Rope"
+  ,"type":"general_items"
+  ,"description":"A long, durable rope. Use it to escape instantly from a cave or a dungeon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ether":{
+  "name":"Ether"
+  ,"type":"medicine"
+  ,"description":"It restores the PP of a Pokémon’s selected move by a maximum of 10 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Everstone":{
+  "name":"Everstone"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Eviolite":{
+  "name":"Eviolite"
+  ,"type":"hold_items"
+  ,"description":"A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Exp. Share":{
+  "name":"Exp. Share"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The holder gets a share of a battle’s Exp. Points without battling."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Expert Belt":{
+  "name":"Expert Belt"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of super-effective moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fairium Z":{
+  "name":"Fairium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Twinkle Tackle, the Fairy type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fairy Gem":{
+  "name":"Fairy Gem"
+  ,"type":"general_items"
+  ,"description":"Increases the power of a Fairy-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fairy Memory":{
+  "name":"Fairy Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Fairy-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fast Ball":{
+  "name":"Fast Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball that makes it easier to catch Pokémon which are quick to run away."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Festival Ticket":{
+  "name":"Festival Ticket"
+  ,"type":"general_items"
+  ,"description":"A ticket that allows you to host a mission in Festival Plaza."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fighting Gem":{
+  "name":"Fighting Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Fighting-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fighting Memory":{
+  "name":"Fighting Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Fighting-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fightinium Z":{
+  "name":"Fightinium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of All-Out Pummeling, the Fighting type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Figy Berry":{
+  "name":"Figy Berry"
+  ,"type":"berries"
+  ,"description":"Restores HP if it's low, but may cause confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fire Gem":{
+  "name":"Fire Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Fire-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fire Memory":{
+  "name":"Fire Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Fire-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fire Stone":{
+  "name":"Fire Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of POKéMON evolve. It is colored orange."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Firium Z":{
+  "name":"Firium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Inferno Overdrive, the Fire type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fist Plate":{
+  "name":"Fist Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Fighting-type moves. Changes Arceus' type to Fighting."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Flame Orb":{
+  "name":"Flame Orb"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Flame Plate":{
+  "name":"Flame Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Fire-type moves. Changes Arceus' type to Fire."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Float Stone":{
+  "name":"Float Stone"
+  ,"type":"hold_items"
+  ,"description":"A very light stone. It reduces the weight of a Pokémon when held."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fluffy Tail":{
+  "name":"Fluffy Tail"
+  ,"type":"general_items"
+  ,"description":"An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Flying Gem":{
+  "name":"Flying Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Flying-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Flying Memory":{
+  "name":"Flying Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Flying-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Flyinium Z":{
+  "name":"Flyinium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Supersonic Skystrike, the Flying type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Focus Band":{
+  "name":"Focus Band"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Focus Sash":{
+  "name":"Focus Sash"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Fresh Water":{
+  "name":"Fresh Water"
+  ,"type":"medicine"
+  ,"description":"Water with a high mineral content. It restores the HP of one POKéMON by 50 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Friend Ball":{
+  "name":"Friend Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball that makes caught Pokémon more friendly."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Full Heal":{
+  "name":"Full Heal"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It heals all the status problems of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Full Incense":{
+  "name":"Full Incense"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is an exotic-smelling incense that makes the holder bloated and slow moving."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Full Restore":{
+  "name":"Full Restore"
+  ,"type":"medicine"
+  ,"description":"A medicine that fully restores the HP and heals any status problems of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Galladite":{
+  "name":"Galladite"
+  ,"type":"hold_items"
+  ,"description":"Enables Gallade to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ganlon Berry":{
+  "name":"Ganlon Berry"
+  ,"type":"berries"
+  ,"description":"Raises Defense when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Garchompite":{
+  "name":"Garchompite"
+  ,"type":"hold_items"
+  ,"description":"Enables Garchomp to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Gardevoirite":{
+  "name":"Gardevoirite"
+  ,"type":"hold_items"
+  ,"description":"Enables Gardevoir to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Gengarite":{
+  "name":"Gengarite"
+  ,"type":"hold_items"
+  ,"description":"Enables Gengar to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Genius Wing":{
+  "name":"Genius Wing"
+  ,"type":"medicine"
+  ,"description":"Increases Special Attack EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ghost Gem":{
+  "name":"Ghost Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Ghost-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ghost Memory":{
+  "name":"Ghost Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Ghost-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ghostium Z":{
+  "name":"Ghostium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Never-Ending Nightmare, the Ghost type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Glalitite":{
+  "name":"Glalitite"
+  ,"type":"hold_items"
+  ,"description":"Enables Glalie to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Gold Bottle Cap":{
+  "name":"Gold Bottle Cap"
+  ,"type":"general_items"
+  ,"description":"A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Gooey Mulch":{
+  "name":"Gooey Mulch"
+  ,"type":"general_items"
+  ,"description":"A fertilizer to be spread on soft soil in regions where berries are grown. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grass Gem":{
+  "name":"Grass Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Grass-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grass Memory":{
+  "name":"Grass Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Grass-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grassium Z":{
+  "name":"Grassium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Bloom Doom, the Grass type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grassy Seed":{
+  "name":"Grassy Seed"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Great Ball":{
+  "name":"Great Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Green Apricorn":{
+  "name":"Green Apricorn"
+  ,"type":"general_items"
+  ,"description":"A green Apricorn. It has a mysterious, aromatic scent."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Green Scarf":{
+  "name":"Green Scarf"
+  ,"type":"general_items"
+  ,"description":"Raises holder's Smart aspect in a Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Green Shard":{
+  "name":"Green Shard"
+  ,"type":"general_items"
+  ,"description":"A small green shard. It appears to be from some sort of implement made long ago."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grepa Berry":{
+  "name":"Grepa Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grip Claw":{
+  "name":"Grip Claw"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Griseous Orb":{
+  "name":"Griseous Orb"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Dragon- and Ghost-type moves when held by Giratina, and changes it to Origin Forme."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ground Gem":{
+  "name":"Ground Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Ground-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ground Memory":{
+  "name":"Ground Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Ground-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Groundium Z":{
+  "name":"Groundium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Tectonic Rage, the Ground type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Growth Mulch":{
+  "name":"Growth Mulch"
+  ,"type":"general_items"
+  ,"description":"A fertilizer to be spread on soft soil in regions where berries are grown. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Grubby Hanky":{
+  "name":"Grubby Hanky"
+  ,"type":"hold_items"
+  ,"description":"A handkerchief dropped by a regular at Café Warehouse. It smells faintly like a Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Guard Spec.":{
+  "name":"Guard Spec."
+  ,"type":"battle_items"
+  ,"description":"Prevents stat reduction for five turns."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Gyaradosite":{
+  "name":"Gyaradosite"
+  ,"type":"hold_items"
+  ,"description":"Enables Gyarados to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Haban Berry":{
+  "name":"Haban Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Dragon-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Hard Stone":{
+  "name":"Hard Stone"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Rock-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heal Ball":{
+  "name":"Heal Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A remedial Poké Ball that restores the caught Pokémon’s HP and eliminates any status problem."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heal Powder":{
+  "name":"Heal Powder"
+  ,"type":"medicine"
+  ,"description":"A very bitter medicine powder. It heals all the status problems of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Health Wing":{
+  "name":"Health Wing"
+  ,"type":"medicine"
+  ,"description":"Increases HP EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heart Scale":{
+  "name":"Heart Scale"
+  ,"type":"general_items"
+  ,"description":"A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heat Rock":{
+  "name":"Heat Rock"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of the move Sunny Day used by the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heavy Ball":{
+  "name":"Heavy Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball for catching very heavy Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Helix Fossil":{
+  "name":"Helix Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Heracronite":{
+  "name":"Heracronite"
+  ,"type":"hold_items"
+  ,"description":"Enables Heracross to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM01":{
+  "name":"HM01"
+  ,"type":"machines"
+  ,"description":"Teaches the move Cut."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM02":{
+  "name":"HM02"
+  ,"type":"machines"
+  ,"description":"Teaches the move Fly."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM03":{
+  "name":"HM03"
+  ,"type":"machines"
+  ,"description":"Teaches the move Surf."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM04":{
+  "name":"HM04"
+  ,"type":"machines"
+  ,"description":"Teaches the move Strength."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM05":{
+  "name":"HM05"
+  ,"type":"machines"
+  ,"description":"Teaches the move Flash/Defog/Whirlpool/Waterfall."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM06":{
+  "name":"HM06"
+  ,"type":"machines"
+  ,"description":"Teaches the move Whirlpool/Rock Smash/Dive."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM07":{
+  "name":"HM07"
+  ,"type":"machines"
+  ,"description":"Teaches the move Waterfall."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HM08":{
+  "name":"HM08"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dive/Rock Climb."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Hondew Berry":{
+  "name":"Hondew Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Honey":{
+  "name":"Honey"
+  ,"type":"general_items"
+  ,"description":"A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Honor Of Kalos":{
+  "name":"Honor Of Kalos"
+  ,"type":"hold_items"
+  ,"description":"A precious symbol that is awarded only to an individual who has done great things for the Kalos region."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Houndoominite":{
+  "name":"Houndoominite"
+  ,"type":"hold_items"
+  ,"description":"Enables Houndoom to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"HP Up":{
+  "name":"HP Up"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base HP of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Hyper Potion":{
+  "name":"Hyper Potion"
+  ,"type":"medicine"
+  ,"description":"Restores 120 HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Iapapa Berry":{
+  "name":"Iapapa Berry"
+  ,"type":"berries"
+  ,"description":"Restores HP if it's low, but may cause confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ice Gem":{
+  "name":"Ice Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of an Ice-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ice Heal":{
+  "name":"Ice Heal"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It defrosts a Pokémon that has been frozen solid."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ice Memory":{
+  "name":"Ice Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Ice-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ice Stone":{
+  "name":"Ice Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Icicle Plate":{
+  "name":"Icicle Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Ice-type moves. Changes Arceus' type to Ice."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Icium Z":{
+  "name":"Icium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Subzero Slammer, the Ice type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Icy Rock":{
+  "name":"Icy Rock"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of the move Hail used by the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Incinium Z":{
+  "name":"Incinium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Incineroar to upgrade Darkest Lariat to a Z-Move, Malicious Moonsault."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Insect Plate":{
+  "name":"Insect Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Bug-type moves. Changes Arceus' type to Bug."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Intriguing Stone":{
+  "name":"Intriguing Stone"
+  ,"type":"hold_items"
+  ,"description":"A rather curious stone that might appear to be valuable to some. It’s all in the eye of the beholder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Iron":{
+  "name":"Iron"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Iron Ball":{
+  "name":"Iron Ball"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Iron Plate":{
+  "name":"Iron Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Steel-type moves. Changes Arceus' type to Steel."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Item Drop":{
+  "name":"Item Drop"
+  ,"type":"battle_items"
+  ,"description":"When used, it causes an ally Pokémon to drop a held item."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Item Urge":{
+  "name":"Item Urge"
+  ,"type":"battle_items"
+  ,"description":"When used, it causes an ally Pokémon to use its held item."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Jaboca Berry":{
+  "name":"Jaboca Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon and a physical attack lands, the attacker also takes damage."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kangaskhanite":{
+  "name":"Kangaskhanite"
+  ,"type":"hold_items"
+  ,"description":"Enables Kangaskhan to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kasib Berry":{
+  "name":"Kasib Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Ghost-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kebia Berry":{
+  "name":"Kebia Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Poison-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kee Berry":{
+  "name":"Kee Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, this Berry will increase the holder’s Defense if it’s hit with a physical move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kelpsy Berry":{
+  "name":"Kelpsy Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"King's Rock":{
+  "name":"King's Rock"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Kommonium Z":{
+  "name":"Kommonium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Kommo-o to upgrade Clanging Scales to a Z-Move, Clangorous Soulblaze."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lagging Tail":{
+  "name":"Lagging Tail"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lansat Berry":{
+  "name":"Lansat Berry"
+  ,"type":"berries"
+  ,"description":"Increases critical-hit ratio when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Latiasite":{
+  "name":"Latiasite"
+  ,"type":"hold_items"
+  ,"description":"Enables Latias to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Latiosite":{
+  "name":"Latiosite"
+  ,"type":"hold_items"
+  ,"description":"Enables Latios to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lava Cookie":{
+  "name":"Lava Cookie"
+  ,"type":"medicine"
+  ,"description":"LAVARIDGE TOWN’s local specialty. It heals all the status problems of one POKéMON."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lax Incense":{
+  "name":"Lax Incense"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Leaf Stone":{
+  "name":"Leaf Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of POKéMON evolve. It has a leaf pattern."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Leftovers":{
+  "name":"Leftovers"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The holder’s HP is gradually restored during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lemonade":{
+  "name":"Lemonade"
+  ,"type":"medicine"
+  ,"description":"A very sweet drink. It restores the HP of one POKéMON by 80 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Leppa Berry":{
+  "name":"Leppa Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it restores a move’s PP by 10."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Level Ball":{
+  "name":"Level Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball for catching Pokémon that are a lower level than your own."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Liechi Berry":{
+  "name":"Liechi Berry"
+  ,"type":"berries"
+  ,"description":"Raises Attack when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Life Orb":{
+  "name":"Life Orb"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of moves, but loses HP each turn."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Light Ball":{
+  "name":"Light Ball"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by PIKACHU. It is a puzzling orb that raises the Attack and Sp. Atk stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Light Clay":{
+  "name":"Light Clay"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of barrier moves like Light Screen and Reflect used by the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Looker Ticket":{
+  "name":"Looker Ticket"
+  ,"type":"hold_items"
+  ,"description":"A ticket that was handmade by Looker. It’s decorated with a liberal amount of glittery paint."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lopunnite":{
+  "name":"Lopunnite"
+  ,"type":"hold_items"
+  ,"description":"Enables Lopunny to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Love Ball":{
+  "name":"Love Ball"
+  ,"type":"Pokeballs"
+  ,"description":"Poké Ball for catching Pokémon that are the opposite gender of your Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lucarionite":{
+  "name":"Lucarionite"
+  ,"type":"hold_items"
+  ,"description":"Enables Lucario to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Luck Incense":{
+  "name":"Luck Incense"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lucky Egg":{
+  "name":"Lucky Egg"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lucky Punch":{
+  "name":"Lucky Punch"
+  ,"type":"hold_items"
+  ,"description":"Increases critical-hit ratio when held by Chansey."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lum Berry":{
+  "name":"Lum Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from any status problem."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Luminous Moss":{
+  "name":"Luminous Moss"
+  ,"type":"hold_items"
+  ,"description":"Raises Special Defense if hit by a Water-type move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lunalium Z":{
+  "name":"Lunalium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Lunala to upgrade Moongeist Beam to a Z-Move, Menacing Moonraze Maelstrom."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lure Ball":{
+  "name":"Lure Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball for catching Pokémon hooked by a Rod when fishing."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lustrous Orb":{
+  "name":"Lustrous Orb"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Dragon- and Water-type moves when held by Palkia."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Luxury Ball":{
+  "name":"Luxury Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Lycanium Z":{
+  "name":"Lycanium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Lycanroc to upgrade Stone Edge to a Z-Move, Splintered Stormshards."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Macho Brace":{
+  "name":"Macho Brace"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is a stiff and heavy brace that promotes strong growth but lowers Speed."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Magmarizer":{
+  "name":"Magmarizer"
+  ,"type":"general_items"
+  ,"description":"A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Magnet":{
+  "name":"Magnet"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Electric-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mago Berry":{
+  "name":"Mago Berry"
+  ,"type":"berries"
+  ,"description":"Restores HP if it's low, but may cause confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Magost Berry":{
+  "name":"Magost Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Manectite":{
+  "name":"Manectite"
+  ,"type":"hold_items"
+  ,"description":"Enables Manectric to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Maranga Berry":{
+  "name":"Maranga Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, this Berry will increase the holder’s Sp. Def if it’s hit with a special move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Marshadium Z":{
+  "name":"Marshadium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Marshadow to upgrade Spectral Thief to a Z-Move, Soul-Stealing 7-Star Strike."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Master Ball":{
+  "name":"Master Ball"
+  ,"type":"Pokeballs"
+  ,"description":"The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mawilite":{
+  "name":"Mawilite"
+  ,"type":"hold_items"
+  ,"description":"Enables Mawile to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Max Elixir":{
+  "name":"Max Elixir"
+  ,"type":"medicine"
+  ,"description":"It fully restores the PP of all the moves learned by the targeted Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Max Ether":{
+  "name":"Max Ether"
+  ,"type":"medicine"
+  ,"description":"It fully restores the PP of a single selected move that has been learned by the target Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Max Potion":{
+  "name":"Max Potion"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine for wounds. It completely restores the HP of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Max Repel":{
+  "name":"Max Repel"
+  ,"type":"general_items"
+  ,"description":"An item that prevents weak wild Pokémon from appearing for 250 steps after its use."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Max Revive":{
+  "name":"Max Revive"
+  ,"type":"medicine"
+  ,"description":"A medicine that revives a fainted Pokémon. It fully restores the Pokémon’s HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Meadow Plate":{
+  "name":"Meadow Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Grass-type moves. Changes Arceus' type to Grass."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Medichamite":{
+  "name":"Medichamite"
+  ,"type":"hold_items"
+  ,"description":"Enables Medicham to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mental Herb":{
+  "name":"Mental Herb"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Metagrossite":{
+  "name":"Metagrossite"
+  ,"type":"hold_items"
+  ,"description":"Enables Metagross to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Metal Coat":{
+  "name":"Metal Coat"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Steel-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Metal Powder":{
+  "name":"Metal Powder"
+  ,"type":"hold_items"
+  ,"description":"Increases Defense when held by Ditto."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Metronome":{
+  "name":"Metronome"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of moves used consecutively."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mewnium Z":{
+  "name":"Mewnium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Mew to upgrade Psychic to a Z-Move, Genesis Supernova."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mewtwonite X":{
+  "name":"Mewtwonite X"
+  ,"type":"hold_items"
+  ,"description":"Enables Mewtwo to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mewtwonite Y":{
+  "name":"Mewtwonite Y"
+  ,"type":"hold_items"
+  ,"description":"Enables Mewtwo to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Micle Berry":{
+  "name":"Micle Berry"
+  ,"type":"berries"
+  ,"description":"Increases a move's accuracy when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mimikium Z":{
+  "name":"Mimikium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Mimikyu to upgrade Play Rough to a Z-Move, Let's Snuggle Forever."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mind Plate":{
+  "name":"Mind Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Psychic-type moves. Changes Arceus' type to Psychic."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Miracle Seed":{
+  "name":"Miracle Seed"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Grass-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Misty Seed":{
+  "name":"Misty Seed"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Moomoo Milk":{
+  "name":"Moomoo Milk"
+  ,"type":"medicine"
+  ,"description":"Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Moon Ball":{
+  "name":"Moon Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A Poké Ball for catching Pokémon that evolve using the Moon Stone."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Moon Stone":{
+  "name":"Moon Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of POKéMON evolve. It is as black as the night sky."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Muscle Band":{
+  "name":"Muscle Band"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Physical-category moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Muscle Wing":{
+  "name":"Muscle Wing"
+  ,"type":"medicine"
+  ,"description":"Increases Attack EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Mystic Water":{
+  "name":"Mystic Water"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Water-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Nanab Berry":{
+  "name":"Nanab Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Nest Ball":{
+  "name":"Nest Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Net Ball":{
+  "name":"Net Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Never-Melt Ice":{
+  "name":"Never-Melt Ice"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Ice-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Nomel Berry":{
+  "name":"Nomel Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Normal Gem":{
+  "name":"Normal Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Normal-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Normalium Z":{
+  "name":"Normalium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Breakneck Blitz, the Normal type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Nugget":{
+  "name":"Nugget"
+  ,"type":"general_items"
+  ,"description":"A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Occa Berry":{
+  "name":"Occa Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Fire-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Odd Incense":{
+  "name":"Odd Incense"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Psychic-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Odd Keystone":{
+  "name":"Odd Keystone"
+  ,"type":"general_items"
+  ,"description":"A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Old Amber":{
+  "name":"Old Amber"
+  ,"type":"general_items"
+  ,"description":"A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Old Gateau":{
+  "name":"Old Gateau"
+  ,"type":"medicine"
+  ,"description":"Old Chateau’s hidden specialty. It heals all the status problems of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Oran Berry":{
+  "name":"Oran Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it heals the user by just 10 HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Oval Charm":{
+  "name":"Oval Charm"
+  ,"type":"general_items"
+  ,"description":"An oval charm said to increase the chance of Pokémon Eggs being found at the Day Care."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Oval Stone":{
+  "name":"Oval Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pamtre Berry":{
+  "name":"Pamtre Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Paralyze Heal":{
+  "name":"Paralyze Heal"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine. It eliminates paralysis from a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Park Ball":{
+  "name":"Park Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A special Poké Ball for the Pal Park."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pass Orb":{
+  "name":"Pass Orb"
+  ,"type":"hold_items"
+  ,"description":"A mysterious orb containing the power of the Unova region, to be used when generating Pass Power."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Passho Berry":{
+  "name":"Passho Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Water-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Payapa Berry":{
+  "name":"Payapa Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Psychic-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pearl":{
+  "name":"Pearl"
+  ,"type":"general_items"
+  ,"description":"A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pearl String":{
+  "name":"Pearl String"
+  ,"type":"general_items"
+  ,"description":"Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pecha Berry":{
+  "name":"Pecha Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from poison."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Permit":{
+  "name":"Permit"
+  ,"type":"general_items"
+  ,"description":"A permit that is needed to enter the Nature Preserve. Not many know about it."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Persim Berry":{
+  "name":"Persim Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Petaya Berry":{
+  "name":"Petaya Berry"
+  ,"type":"berries"
+  ,"description":"Raises Special Attack when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pidgeotite":{
+  "name":"Pidgeotite"
+  ,"type":"hold_items"
+  ,"description":"Enables Pidgeot to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pikanium Z":{
+  "name":"Pikanium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Pikachu to upgrade Volt Tackle to a Z-Move, Catastropika."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pikashunium Z":{
+  "name":"Pikashunium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Pikachu in a cap to upgrade Thunderbolt to a Z-Move, 10,000,000 Volt Thunderbolt."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pinap Berry":{
+  "name":"Pinap Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pink Apricorn":{
+  "name":"Pink Apricorn"
+  ,"type":"general_items"
+  ,"description":"A pink Apricorn. It has a nice, sweet scent."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pink Nectar":{
+  "name":"Pink Nectar"
+  ,"type":"hold_items"
+  ,"description":"The flower nectar obtained at the flowering shrubs on Royal Avenue. It changes the form of certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pink Scarf":{
+  "name":"Pink Scarf"
+  ,"type":"general_items"
+  ,"description":"Raises holder's Cute aspect in a Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pinsirite":{
+  "name":"Pinsirite"
+  ,"type":"hold_items"
+  ,"description":"Enables Pinsir to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pixie Plate":{
+  "name":"Pixie Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Fairy-type moves. Changes Arceus' type to Fairy."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Plasma Card":{
+  "name":"Plasma Card"
+  ,"type":"hold_items"
+  ,"description":"A card key needed to enter the password inside the Plasma Frigate."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Plume Fossil":{
+  "name":"Plume Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poison Barb":{
+  "name":"Poison Barb"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Poison-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poison Gem":{
+  "name":"Poison Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Poison-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poison Memory":{
+  "name":"Poison Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Poison-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poisonium Z":{
+  "name":"Poisonium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Acid Downpour, the Poison type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poké Ball":{
+  "name":"Poké Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poké Doll":{
+  "name":"Poké Doll"
+  ,"type":"general_items"
+  ,"description":"A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Poké Toy":{
+  "name":"Poké Toy"
+  ,"type":"general_items"
+  ,"description":"An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pomeg Berry":{
+  "name":"Pomeg Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Potion":{
+  "name":"Potion"
+  ,"type":"medicine"
+  ,"description":"A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Anklet":{
+  "name":"Power Anklet"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Band":{
+  "name":"Power Band"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Belt":{
+  "name":"Power Belt"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Bracer":{
+  "name":"Power Bracer"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Herb":{
+  "name":"Power Herb"
+  ,"type":"hold_items"
+  ,"description":"A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Lens":{
+  "name":"Power Lens"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Plant Pass":{
+  "name":"Power Plant Pass"
+  ,"type":"hold_items"
+  ,"description":"This pass serves as an ID card for gaining access to the power plant that lies along Route 13."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Power Weight":{
+  "name":"Power Weight"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"PP Max":{
+  "name":"PP Max"
+  ,"type":"medicine"
+  ,"description":"It maximally raises the top PP of a selected move that has been learned by the target Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"PP Up":{
+  "name":"PP Up"
+  ,"type":"medicine"
+  ,"description":"It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Premier Ball":{
+  "name":"Premier Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pretty Wing":{
+  "name":"Pretty Wing"
+  ,"type":"general_items"
+  ,"description":"Though this feather is beautiful, it’s just a regular feather and has no effect on Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Primarium Z":{
+  "name":"Primarium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Primarina to upgrade Sparkling Aria to a Z-Move, Oceanic Operetta."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Prism Scale":{
+  "name":"Prism Scale"
+  ,"type":"general_items"
+  ,"description":"A mysterious scale that evolves certain Pokémon. It shines in rainbow colors."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Prison Bottle":{
+  "name":"Prison Bottle"
+  ,"type":"hold_items"
+  ,"description":"Transforms Hoopa Confined to Hoopa Unbound."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Prof's Letter":{
+  "name":"Prof's Letter"
+  ,"type":"hold_items"
+  ,"description":"A letter that Professor Sycamore wrote to your mother. A faint but pleasant perfume seems to cling to the paper."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Protective Pads":{
+  "name":"Protective Pads"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. These pads protect the holder from effects caused by making direct contact with the target."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Protector":{
+  "name":"Protector"
+  ,"type":"general_items"
+  ,"description":"A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Protein":{
+  "name":"Protein"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Psychic Gem":{
+  "name":"Psychic Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Psychic-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Psychic Memory":{
+  "name":"Psychic Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Psychic-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Psychic Seed":{
+  "name":"Psychic Seed"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Psychium Z":{
+  "name":"Psychium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Shattered Psyche, the Psychic type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Pure Incense":{
+  "name":"Pure Incense"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Purple Nectar":{
+  "name":"Purple Nectar"
+  ,"type":"hold_items"
+  ,"description":"A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Qualot Berry":{
+  "name":"Qualot Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Quick Ball":{
+  "name":"Quick Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Quick Claw":{
+  "name":"Quick Claw"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Quick Powder":{
+  "name":"Quick Powder"
+  ,"type":"hold_items"
+  ,"description":"Increases Speed when held by Ditto."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rabuta Berry":{
+  "name":"Rabuta Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rare Bone":{
+  "name":"Rare Bone"
+  ,"type":"general_items"
+  ,"description":"A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rare Candy":{
+  "name":"Rare Candy"
+  ,"type":"medicine"
+  ,"description":"A candy that is packed with energy. It raises the level of a single Pokémon by one."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rawst Berry":{
+  "name":"Rawst Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it recovers from a burn."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Razor Claw":{
+  "name":"Razor Claw"
+  ,"type":"hold_items"
+  ,"description":"Increases critical-hit ratio."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Razor Fang":{
+  "name":"Razor Fang"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Razz Berry":{
+  "name":"Razz Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Reaper Cloth":{
+  "name":"Reaper Cloth"
+  ,"type":"general_items"
+  ,"description":"A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Apricorn":{
+  "name":"Red Apricorn"
+  ,"type":"general_items"
+  ,"description":"A red Apricorn. It assails your nostrils."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Card":{
+  "name":"Red Card"
+  ,"type":"hold_items"
+  ,"description":"A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Flute":{
+  "name":"Red Flute"
+  ,"type":"general_items"
+  ,"description":"A toy flute made from red glass. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Nectar":{
+  "name":"Red Nectar"
+  ,"type":"hold_items"
+  ,"description":"A flower nectar obtained at Ula’ula Meadow. It changes the form of certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Scarf":{
+  "name":"Red Scarf"
+  ,"type":"general_items"
+  ,"description":"Raises holder's Cool aspect in a Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Red Shard":{
+  "name":"Red Shard"
+  ,"type":"general_items"
+  ,"description":"A small red shard. It appears to be from some sort of implement made long ago."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Band":{
+  "name":"Relic Band"
+  ,"type":"general_items"
+  ,"description":"A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Copper":{
+  "name":"Relic Copper"
+  ,"type":"general_items"
+  ,"description":"A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Crown":{
+  "name":"Relic Crown"
+  ,"type":"general_items"
+  ,"description":"A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Gold":{
+  "name":"Relic Gold"
+  ,"type":"general_items"
+  ,"description":"A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Silver":{
+  "name":"Relic Silver"
+  ,"type":"general_items"
+  ,"description":"A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Statue":{
+  "name":"Relic Statue"
+  ,"type":"general_items"
+  ,"description":"A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Relic Vase":{
+  "name":"Relic Vase"
+  ,"type":"general_items"
+  ,"description":"A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Repeat Ball":{
+  "name":"Repeat Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Repel":{
+  "name":"Repel"
+  ,"type":"general_items"
+  ,"description":"An item that prevents weak wild Pokémon from appearing for 100 steps after its use."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Reset Urge":{
+  "name":"Reset Urge"
+  ,"type":"battle_items"
+  ,"description":"When used, it restores any stat changes of an ally Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Resist Wing":{
+  "name":"Resist Wing"
+  ,"type":"medicine"
+  ,"description":"Increases Defense EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Reveal Glass":{
+  "name":"Reveal Glass"
+  ,"type":"general_items"
+  ,"description":"A looking glass that reveals the truth. It’s a mysterious glass that returns a Pokémon to its original shape."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Revival Herb":{
+  "name":"Revival Herb"
+  ,"type":"medicine"
+  ,"description":"A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Revive":{
+  "name":"Revive"
+  ,"type":"medicine"
+  ,"description":"A medicine that revives a fainted Pokémon. It restores half the Pokémon’s maximum HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rindo Berry":{
+  "name":"Rindo Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Grass-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ring Target":{
+  "name":"Ring Target"
+  ,"type":"hold_items"
+  ,"description":"Moves that would otherwise have no effect will land on the Pokémon that holds it."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rock Gem":{
+  "name":"Rock Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Rock-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rock Incense":{
+  "name":"Rock Incense"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Rock-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rock Memory":{
+  "name":"Rock Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Rock-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rockium Z":{
+  "name":"Rockium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Continental Crush, the Rock type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rocky Helmet":{
+  "name":"Rocky Helmet"
+  ,"type":"hold_items"
+  ,"description":"If the holder of this item takes damage, the attacker will also be damaged upon contact."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roller Skates":{
+  "name":"Roller Skates"
+  ,"type":"general_items"
+  ,"description":"Attaches roller skates to the bottom of your shoes, allowing you to glide quickly around and perform tricks."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Root Fossil":{
+  "name":"Root Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rose Incense":{
+  "name":"Rose Incense"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Grass-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roseli Berry":{
+  "name":"Roseli Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Bargain":{
+  "name":"Roto Bargain"
+  ,"type":"battle_items"
+  ,"description":"Reduces the prices of products at Poké Marts by half."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Boost":{
+  "name":"Roto Boost"
+  ,"type":"battle_items"
+  ,"description":"Raises all stats of your battling Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Catch":{
+  "name":"Roto Catch"
+  ,"type":"battle_items"
+  ,"description":"Increases the chance to catch Pokémon a lot."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Encounter":{
+  "name":"Roto Encounter"
+  ,"type":"battle_items"
+  ,"description":"Increases the chance of encountering high-level wild Pokémon a lot for a certain period of time."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Exp. Points":{
+  "name":"Roto Exp. Points"
+  ,"type":"battle_items"
+  ,"description":"Increases the Exp. Points your Pokémon receive after battle a little."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Friendship":{
+  "name":"Roto Friendship"
+  ,"type":"battle_items"
+  ,"description":"Helps Pokémon in your party grow friendly faster."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Hatch":{
+  "name":"Roto Hatch"
+  ,"type":"battle_items"
+  ,"description":"Helps Eggs hatch faster."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto HP Restore":{
+  "name":"Roto HP Restore"
+  ,"type":"battle_items"
+  ,"description":"Fully restores the HP of your battling Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto PP Restore":{
+  "name":"Roto PP Restore"
+  ,"type":"battle_items"
+  ,"description":"Fully restores the PP of your battling Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Prize Money":{
+  "name":"Roto Prize Money"
+  ,"type":"battle_items"
+  ,"description":"Triples the prize money you receive after battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Roto Stealth":{
+  "name":"Roto Stealth"
+  ,"type":"battle_items"
+  ,"description":"Prevents you from encountering wild Pokémon for a certain period of time."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Rowap Berry":{
+  "name":"Rowap Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon and a special attack lands, the attacker also takes damage."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sablenite":{
+  "name":"Sablenite"
+  ,"type":"hold_items"
+  ,"description":"Enables Sableye to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sachet":{
+  "name":"Sachet"
+  ,"type":"general_items"
+  ,"description":"A sachet filled with fragrant perfumes that are just slightly too overwhelming. Yet it’s loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sacred Ash":{
+  "name":"Sacred Ash"
+  ,"type":"medicine"
+  ,"description":"It revives all fainted Pokémon. In doing so, it also fully restores their HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Safari Ball":{
+  "name":"Safari Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A special Poké Ball that is used only in the Great Marsh. It is decorated in a camouflage pattern."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Safety Goggles":{
+  "name":"Safety Goggles"
+  ,"type":"hold_items"
+  ,"description":"Prevents damage from weather and powder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Salac Berry":{
+  "name":"Salac Berry"
+  ,"type":"berries"
+  ,"description":"Raises Speed when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Salamencite":{
+  "name":"Salamencite"
+  ,"type":"hold_items"
+  ,"description":"Enables Salamence to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sceptilite":{
+  "name":"Sceptilite"
+  ,"type":"hold_items"
+  ,"description":"Enables Sceptile to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Scizorite":{
+  "name":"Scizorite"
+  ,"type":"hold_items"
+  ,"description":"Enables Scizor to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Scope Lens":{
+  "name":"Scope Lens"
+  ,"type":"hold_items"
+  ,"description":"Increases critical-hit ratio."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sea Incense":{
+  "name":"Sea Incense"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Water-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sharp Beak":{
+  "name":"Sharp Beak"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Flying-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sharpedonite":{
+  "name":"Sharpedonite"
+  ,"type":"hold_items"
+  ,"description":"Enables Sharpedo to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shed Shell":{
+  "name":"Shed Shell"
+  ,"type":"hold_items"
+  ,"description":"A tough, discarded carapace to be held by a Pokémon. It enables the holder to switch with a waiting Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shell Bell":{
+  "name":"Shell Bell"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. The holder’s HP is restored a little every time it inflicts damage."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shiny Charm":{
+  "name":"Shiny Charm"
+  ,"type":"general_items"
+  ,"description":"A shiny charm said to increase the chance of finding a Shiny Pokémon in the wild."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shiny Stone":{
+  "name":"Shiny Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shoal Salt":{
+  "name":"Shoal Salt"
+  ,"type":"general_items"
+  ,"description":"Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shoal Shell":{
+  "name":"Shoal Shell"
+  ,"type":"general_items"
+  ,"description":"A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shock Drive":{
+  "name":"Shock Drive"
+  ,"type":"hold_items"
+  ,"description":"Changes Techno Blast to an Electric-type move when held by Genesect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Shuca Berry":{
+  "name":"Shuca Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Ground-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Silk Scarf":{
+  "name":"Silk Scarf"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Normal-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Silver Powder":{
+  "name":"Silver Powder"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Bug-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sitrus Berry":{
+  "name":"Sitrus Berry"
+  ,"type":"berries"
+  ,"description":"If held by a Pokémon, it heals the user’s HP a little."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Skull Fossil":{
+  "name":"Skull Fossil"
+  ,"type":"general_items"
+  ,"description":"A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sky Plate":{
+  "name":"Sky Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Flying-type moves. Changes Arceus' type to Flying."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Slowbronite":{
+  "name":"Slowbronite"
+  ,"type":"hold_items"
+  ,"description":"Enables Slowbro to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Smoke Ball":{
+  "name":"Smoke Ball"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Smooth Rock":{
+  "name":"Smooth Rock"
+  ,"type":"hold_items"
+  ,"description":"A Pokémon held item that extends the duration of the move Sandstorm used by the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Snorlium Z":{
+  "name":"Snorlium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Snorlax to upgrade Giga Impact to a Z-Move, Pulverizing Pancake."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Snowball":{
+  "name":"Snowball"
+  ,"type":"hold_items"
+  ,"description":"Raises Attack if hit by an Ice-type move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Soda Pop":{
+  "name":"Soda Pop"
+  ,"type":"medicine"
+  ,"description":"A fizzy soda drink. It restores the HP of one POKéMON by 60 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Soft Sand":{
+  "name":"Soft Sand"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Ground-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Solganium Z":{
+  "name":"Solganium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Solgaleo to upgrade Sunsteel Strike to a Z-Move, Searing Sunraze Smash."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Soothe Bell":{
+  "name":"Soothe Bell"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder and makes it friendly."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Soul Dew":{
+  "name":"Soul Dew"
+  ,"type":"hold_items"
+  ,"description":"Increases both Special Attack and Special Defense when held by Latios or Latias."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Spell Tag":{
+  "name":"Spell Tag"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Ghost-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Spelon Berry":{
+  "name":"Spelon Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Splash Plate":{
+  "name":"Splash Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Water-type moves. Changes Arceus' type to Water."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Spooky Plate":{
+  "name":"Spooky Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Ghost-type moves. Changes Arceus' type to Ghost."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sport Ball":{
+  "name":"Sport Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A special Poké Ball for the Bug-Catching Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sprinklotad":{
+  "name":"Sprinklotad"
+  ,"type":"general_items"
+  ,"description":"A watering can shaped like a Lotad. It helps promote the healthy growth of any berries planted in good, soft soil."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Stable Mulch":{
+  "name":"Stable Mulch"
+  ,"type":"general_items"
+  ,"description":"A fertilizer to be spread on soft soil in regions where berries are grown. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Star Piece":{
+  "name":"Star Piece"
+  ,"type":"general_items"
+  ,"description":"A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Stardust":{
+  "name":"Stardust"
+  ,"type":"general_items"
+  ,"description":"Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Starf Berry":{
+  "name":"Starf Berry"
+  ,"type":"berries"
+  ,"description":"Sharply raises a random stat when HP is low."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Steel Gem":{
+  "name":"Steel Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Steel-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Steel Memory":{
+  "name":"Steel Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Steel-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Steelium Z":{
+  "name":"Steelium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Corkscrew Crash, the Steel type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Steelixite":{
+  "name":"Steelixite"
+  ,"type":"hold_items"
+  ,"description":"Enables Steelix to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Stick":{
+  "name":"Stick"
+  ,"type":"hold_items"
+  ,"description":"Increases critical-hit ratio when held by Farfetch'd."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sticky Barb":{
+  "name":"Sticky Barb"
+  ,"type":"hold_items"
+  ,"description":"A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Stone Plate":{
+  "name":"Stone Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Rock-type moves. Changes Arceus' type to Rock."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Strange Souvenir":{
+  "name":"Strange Souvenir"
+  ,"type":"general_items"
+  ,"description":"An ornament depicting a Pokémon that is venerated as a protector in some region far from Kalos."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sun Stone":{
+  "name":"Sun Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of POKéMON evolve. It is as red as the sun."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Super Potion":{
+  "name":"Super Potion"
+  ,"type":"medicine"
+  ,"description":"Restores 60 HP."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Super Repel":{
+  "name":"Super Repel"
+  ,"type":"general_items"
+  ,"description":"An item that prevents weak wild Pokémon from appearing for 200 steps after its use."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Swampertite":{
+  "name":"Swampertite"
+  ,"type":"hold_items"
+  ,"description":"Enables Swampert to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Sweet Heart":{
+  "name":"Sweet Heart"
+  ,"type":"medicine"
+  ,"description":"Very sweet chocolate. It restores the HP of one Pokémon by only 20 points."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Swift Wing":{
+  "name":"Swift Wing"
+  ,"type":"medicine"
+  ,"description":"Increases Speed EVs by 1."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Tamato Berry":{
+  "name":"Tamato Berry"
+  ,"type":"berries"
+  ,"description":"Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Tanga Berry":{
+  "name":"Tanga Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Bug-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Tapunium Z":{
+  "name":"Tapunium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the Tapus to upgrade Nature's Madness to a Z-Move, Guardian of Alola."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Terrain Extender":{
+  "name":"Terrain Extender"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder’s move or Ability."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Thick Club":{
+  "name":"Thick Club"
+  ,"type":"hold_items"
+  ,"description":"Increases Attack when held by Cubone or Marowak."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Thunder Stone":{
+  "name":"Thunder Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of POKéMON evolve. It has a thunderbolt pattern."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Timer Ball":{
+  "name":"Timer Ball"
+  ,"type":"Pokeballs"
+  ,"description":"A somewhat different BALL that becomes progressively better the more turns there are in a battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Tiny Mushroom":{
+  "name":"Tiny Mushroom"
+  ,"type":"general_items"
+  ,"description":"A small and rare mushroom. It is sought after by collectors."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM01":{
+  "name":"TM01"
+  ,"type":"machines"
+  ,"description":"Teaches the move Mega Punch/DynamicPunch/Focus Punch/Hone Claws/Work Up."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM02":{
+  "name":"TM02"
+  ,"type":"machines"
+  ,"description":"Teaches the move Razor Wind/Headbutt/Dragon Claw."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM03":{
+  "name":"TM03"
+  ,"type":"machines"
+  ,"description":"Teaches the move Swords Dance/Curse/Water Pulse/Psyshock."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM04":{
+  "name":"TM04"
+  ,"type":"machines"
+  ,"description":"Teaches the move Whirlwind/Rollout/Calm Mind."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM05":{
+  "name":"TM05"
+  ,"type":"machines"
+  ,"description":"Teaches the move Mega Kick/Roar."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM06":{
+  "name":"TM06"
+  ,"type":"machines"
+  ,"description":"Teaches the move Toxic."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM07":{
+  "name":"TM07"
+  ,"type":"machines"
+  ,"description":"Teaches the move Horn Drill/Zap Cannon/Hail."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM08":{
+  "name":"TM08"
+  ,"type":"machines"
+  ,"description":"Teaches the move Body Slam/Rock Smash/Bulk Up."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM09":{
+  "name":"TM09"
+  ,"type":"machines"
+  ,"description":"Teaches the move Take Down/Psych Up/Bullet Seed/Venoshock."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM10":{
+  "name":"TM10"
+  ,"type":"machines"
+  ,"description":"Teaches the move Double-Edge/Hidden Power."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM100":{
+  "name":"TM100"
+  ,"type":"machines"
+  ,"description":"Teaches the move Confide."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM11":{
+  "name":"TM11"
+  ,"type":"machines"
+  ,"description":"Teaches the move BubbleBeam/Sunny Day."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM12":{
+  "name":"TM12"
+  ,"type":"machines"
+  ,"description":"Teaches the move Water Gun/Sweet Scent/Taunt."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM13":{
+  "name":"TM13"
+  ,"type":"machines"
+  ,"description":"Teaches the move Snore/Ice Beam."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM14":{
+  "name":"TM14"
+  ,"type":"machines"
+  ,"description":"Teaches the move Blizzard."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM15":{
+  "name":"TM15"
+  ,"type":"machines"
+  ,"description":"Teaches the move Hyper Beam."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM16":{
+  "name":"TM16"
+  ,"type":"machines"
+  ,"description":"Teaches the move Pay Day/Icy Wind/Light Screen."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM17":{
+  "name":"TM17"
+  ,"type":"machines"
+  ,"description":"Teaches the move Submission/Protect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM18":{
+  "name":"TM18"
+  ,"type":"machines"
+  ,"description":"Teaches the move Counter/Rain Dance."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM19":{
+  "name":"TM19"
+  ,"type":"machines"
+  ,"description":"Teaches the move Seismic Toss/Giga Drain/Telekinesis/Roost."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM20":{
+  "name":"TM20"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rage/Endure/Safeguard."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM21":{
+  "name":"TM21"
+  ,"type":"machines"
+  ,"description":"Teaches the move Mega Drain/Frustration."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM22":{
+  "name":"TM22"
+  ,"type":"machines"
+  ,"description":"Teaches the move SolarBeam."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM23":{
+  "name":"TM23"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dragon Rage/Iron Tail/Smack Down."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM24":{
+  "name":"TM24"
+  ,"type":"machines"
+  ,"description":"Teaches the move Thunderbolt/DragonBreath."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM25":{
+  "name":"TM25"
+  ,"type":"machines"
+  ,"description":"Teaches the move Thunder."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM26":{
+  "name":"TM26"
+  ,"type":"machines"
+  ,"description":"Teaches the move Earthquake."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM27":{
+  "name":"TM27"
+  ,"type":"machines"
+  ,"description":"Teaches the move Fissure/Return."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM28":{
+  "name":"TM28"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dig/Leech Life."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM29":{
+  "name":"TM29"
+  ,"type":"machines"
+  ,"description":"Teaches the move Psychic."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM30":{
+  "name":"TM30"
+  ,"type":"machines"
+  ,"description":"Teaches the move Teleport/Shadow Ball."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM31":{
+  "name":"TM31"
+  ,"type":"machines"
+  ,"description":"Teaches the move Mimic/Mud-Slap/Brick Break."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM32":{
+  "name":"TM32"
+  ,"type":"machines"
+  ,"description":"Teaches the move Double Team."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM33":{
+  "name":"TM33"
+  ,"type":"machines"
+  ,"description":"Teaches the move Ice Punch/Reflect."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM34":{
+  "name":"TM34"
+  ,"type":"machines"
+  ,"description":"Teaches the move Bide/Swagger/Shock Wave/Sludge Wave."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM35":{
+  "name":"TM35"
+  ,"type":"machines"
+  ,"description":"Teaches the move Metronome/Sleep Talk/Flamethrower."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM36":{
+  "name":"TM36"
+  ,"type":"machines"
+  ,"description":"Teaches the move Selfdestruct/Sludge Bomb."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM37":{
+  "name":"TM37"
+  ,"type":"machines"
+  ,"description":"Teaches the move Egg Bomb/Sandstorm."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM38":{
+  "name":"TM38"
+  ,"type":"machines"
+  ,"description":"Teaches the move Fire Blast."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM39":{
+  "name":"TM39"
+  ,"type":"machines"
+  ,"description":"Teaches the move Swift/Rock Tomb."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM40":{
+  "name":"TM40"
+  ,"type":"machines"
+  ,"description":"Teaches the move Skull Bash/Defense Curl/Aerial Ace."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM41":{
+  "name":"TM41"
+  ,"type":"machines"
+  ,"description":"Teaches the move Softboiled/ThunderPunch/Torment."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM42":{
+  "name":"TM42"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dream Eater/Facade."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM43":{
+  "name":"TM43"
+  ,"type":"machines"
+  ,"description":"Teaches the move Sky Attack/Detect/Secret Power/Flame Charge."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM44":{
+  "name":"TM44"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM45":{
+  "name":"TM45"
+  ,"type":"machines"
+  ,"description":"Teaches the move Thunder Wave/Attract."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM46":{
+  "name":"TM46"
+  ,"type":"machines"
+  ,"description":"Teaches the move Psywave/Thief."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM47":{
+  "name":"TM47"
+  ,"type":"machines"
+  ,"description":"Teaches the move Explosion/Steel Wing/Low Sweep."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM48":{
+  "name":"TM48"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rock Slide/Fire Punch/Skill Swap/Round."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM49":{
+  "name":"TM49"
+  ,"type":"machines"
+  ,"description":"Teaches the move Tri Attack/Fury Cutter/Snatch/Echoed Voice."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM50":{
+  "name":"TM50"
+  ,"type":"machines"
+  ,"description":"Teaches the move Substitute/Nightmare/Overheat."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM51":{
+  "name":"TM51"
+  ,"type":"machines"
+  ,"description":"Teaches the move Roost/Ally Switch/Steel Wing."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM52":{
+  "name":"TM52"
+  ,"type":"machines"
+  ,"description":"Teaches the move Focus Blast."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM53":{
+  "name":"TM53"
+  ,"type":"machines"
+  ,"description":"Teaches the move Energy Ball."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM54":{
+  "name":"TM54"
+  ,"type":"machines"
+  ,"description":"Teaches the move False Swipe."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM55":{
+  "name":"TM55"
+  ,"type":"machines"
+  ,"description":"Teaches the move Brine/Scald."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM56":{
+  "name":"TM56"
+  ,"type":"machines"
+  ,"description":"Teaches the move Fling."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM57":{
+  "name":"TM57"
+  ,"type":"machines"
+  ,"description":"Teaches the move Charge Beam."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM58":{
+  "name":"TM58"
+  ,"type":"machines"
+  ,"description":"Teaches the move Endure/Sky Drop."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM59":{
+  "name":"TM59"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dragon Pulse/Incinerate/Brutal Swing."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM60":{
+  "name":"TM60"
+  ,"type":"machines"
+  ,"description":"Teaches the move Drain Punch/Quash."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM61":{
+  "name":"TM61"
+  ,"type":"machines"
+  ,"description":"Teaches the move Will-O-Wisp."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM62":{
+  "name":"TM62"
+  ,"type":"machines"
+  ,"description":"Teaches the move Silver Wind/Acrobatics."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM63":{
+  "name":"TM63"
+  ,"type":"machines"
+  ,"description":"Teaches the move Embargo."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM64":{
+  "name":"TM64"
+  ,"type":"machines"
+  ,"description":"Teaches the move Explosion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM65":{
+  "name":"TM65"
+  ,"type":"machines"
+  ,"description":"Teaches the move Shadow Claw."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM66":{
+  "name":"TM66"
+  ,"type":"machines"
+  ,"description":"Teaches the move Payback."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM67":{
+  "name":"TM67"
+  ,"type":"machines"
+  ,"description":"Teaches the move Recycle/Retaliate/Smart Strike."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM68":{
+  "name":"TM68"
+  ,"type":"machines"
+  ,"description":"Teaches the move Giga Impact."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM69":{
+  "name":"TM69"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rock Polish."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM70":{
+  "name":"TM70"
+  ,"type":"machines"
+  ,"description":"Teaches the move Flash/Aurora Veil."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM71":{
+  "name":"TM71"
+  ,"type":"machines"
+  ,"description":"Teaches the move Stone Edge."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM72":{
+  "name":"TM72"
+  ,"type":"machines"
+  ,"description":"Teaches the move Avalanche/Volt Switch."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM73":{
+  "name":"TM73"
+  ,"type":"machines"
+  ,"description":"Teaches the move Thunder Wave."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM74":{
+  "name":"TM74"
+  ,"type":"machines"
+  ,"description":"Teaches the move Gyro Ball."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM75":{
+  "name":"TM75"
+  ,"type":"machines"
+  ,"description":"Teaches the move Swords Dance."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM76":{
+  "name":"TM76"
+  ,"type":"machines"
+  ,"description":"Teaches the move Stealth Rock/Struggle Bug/Fly."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM77":{
+  "name":"TM77"
+  ,"type":"machines"
+  ,"description":"Teaches the move Psych Up."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM78":{
+  "name":"TM78"
+  ,"type":"machines"
+  ,"description":"Teaches the move Captivate/Bulldoze."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM79":{
+  "name":"TM79"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dark Pulse/Frost Breath."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM80":{
+  "name":"TM80"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rock Slide."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM81":{
+  "name":"TM81"
+  ,"type":"machines"
+  ,"description":"Teaches the move X-Scissor."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM82":{
+  "name":"TM82"
+  ,"type":"machines"
+  ,"description":"Teaches the move Sleep Talk/Dragon Tail."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM83":{
+  "name":"TM83"
+  ,"type":"machines"
+  ,"description":"Teaches the move Natural Gift/Work Up/Infestation."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM84":{
+  "name":"TM84"
+  ,"type":"machines"
+  ,"description":"Teaches the move Poison Jab."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM85":{
+  "name":"TM85"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dream Eater."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM86":{
+  "name":"TM86"
+  ,"type":"machines"
+  ,"description":"Teaches the move Grass Knot."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM87":{
+  "name":"TM87"
+  ,"type":"machines"
+  ,"description":"Teaches the move Swagger."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM88":{
+  "name":"TM88"
+  ,"type":"machines"
+  ,"description":"Teaches the move Pluck/Sleep Talk."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM89":{
+  "name":"TM89"
+  ,"type":"machines"
+  ,"description":"Teaches the move U-turn."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM90":{
+  "name":"TM90"
+  ,"type":"machines"
+  ,"description":"Teaches the move Substitute."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM91":{
+  "name":"TM91"
+  ,"type":"machines"
+  ,"description":"Teaches the move Flash Cannon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM92":{
+  "name":"TM92"
+  ,"type":"machines"
+  ,"description":"Teaches the move Trick Room."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM93":{
+  "name":"TM93"
+  ,"type":"machines"
+  ,"description":"Teaches the move Wild Charge."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM94":{
+  "name":"TM94"
+  ,"type":"machines"
+  ,"description":"Teaches the move Rock Smash/Surf."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM95":{
+  "name":"TM95"
+  ,"type":"machines"
+  ,"description":"Teaches the move Snarl."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM96":{
+  "name":"TM96"
+  ,"type":"machines"
+  ,"description":"Teaches the move Nature Power."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM97":{
+  "name":"TM97"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dark Pulse."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM98":{
+  "name":"TM98"
+  ,"type":"machines"
+  ,"description":"Teaches the move Power-Up Punch/Waterfall."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TM99":{
+  "name":"TM99"
+  ,"type":"machines"
+  ,"description":"Teaches the move Dazzling Gleam."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"TMV Pass":{
+  "name":"TMV Pass"
+  ,"type":"general_items"
+  ,"description":"A commuter pass that allows the holder to ride the TMV between Lumiose City and Kiloude City at any time."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Toxic Orb":{
+  "name":"Toxic Orb"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Toxic Plate":{
+  "name":"Toxic Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Poison-type moves. Changes Arceus' type to Poison."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Twisted Spoon":{
+  "name":"Twisted Spoon"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Psychic-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Tyranitarite":{
+  "name":"Tyranitarite"
+  ,"type":"hold_items"
+  ,"description":"Enables Tyranitar to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ultra Ball":{
+  "name":"Ultra Ball"
+  ,"type":"Pokeballs"
+  ,"description":"An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Ultranecrozium Z":{
+  "name":"Ultranecrozium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows Ultra Necrozma to upgrade Photon Geyser to a Z-Move, Light That Burns the Sky."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Up-Grade":{
+  "name":"Up-Grade"
+  ,"type":"general_items"
+  ,"description":"A transparent device filled with all sorts of data. It was produced by Silph Co."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Venusaurite":{
+  "name":"Venusaurite"
+  ,"type":"hold_items"
+  ,"description":"Enables Venusaur to Mega Evolve during battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wacan Berry":{
+  "name":"Wacan Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Electric-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Water Gem":{
+  "name":"Water Gem"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of a Water-type move only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Water Memory":{
+  "name":"Water Memory"
+  ,"type":"hold_items"
+  ,"description":"A memory disc that contains Water-type data. It changes the type of the holder if held by a certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Water Stone":{
+  "name":"Water Stone"
+  ,"type":"general_items"
+  ,"description":"A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Waterium Z":{
+  "name":"Waterium Z"
+  ,"type":"hold_items"
+  ,"description":"Allows the use of Hydro Vortex, the Water type Z-Move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Watmel Berry":{
+  "name":"Watmel Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wave Incense":{
+  "name":"Wave Incense"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Water-type moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Weakness Policy":{
+  "name":"Weakness Policy"
+  ,"type":"hold_items"
+  ,"description":"Sharply raises Attack and Special Attack if hit by a super-effective move."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wepear Berry":{
+  "name":"Wepear Berry"
+  ,"type":"berries"
+  ,"description":"A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Whipped Dream":{
+  "name":"Whipped Dream"
+  ,"type":"general_items"
+  ,"description":"A soft and sweet treat made of fluffy, puffy, whipped and whirled cream. It’s loved by a certain Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"White Apricorn":{
+  "name":"White Apricorn"
+  ,"type":"general_items"
+  ,"description":"A white Apricorn. It doesn’t smell like anything."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"White Flute":{
+  "name":"White Flute"
+  ,"type":"general_items"
+  ,"description":"A toy flute made from white glass. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"White Herb":{
+  "name":"White Herb"
+  ,"type":"hold_items"
+  ,"description":"An item to be held by a POKéMON. It restores any lowered stat in battle. It can be used only once."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wide Lens":{
+  "name":"Wide Lens"
+  ,"type":"hold_items"
+  ,"description":"Increases the accuracy of moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wiki Berry":{
+  "name":"Wiki Berry"
+  ,"type":"berries"
+  ,"description":"Restores HP if it's low, but may cause confusion."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Wise Glasses":{
+  "name":"Wise Glasses"
+  ,"type":"hold_items"
+  ,"description":"Increases the power of Special-category moves."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Accuracy":{
+  "name":"X Accuracy"
+  ,"type":"battle_items"
+  ,"description":"Raises Accuracy of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Attack":{
+  "name":"X Attack"
+  ,"type":"battle_items"
+  ,"description":"Raises Attack of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Defense":{
+  "name":"X Defense"
+  ,"type":"battle_items"
+  ,"description":"Raises Defense of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Sp. Atk":{
+  "name":"X Sp. Atk"
+  ,"type":"battle_items"
+  ,"description":"Raises Special Attack of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Sp. Def":{
+  "name":"X Sp. Def"
+  ,"type":"battle_items"
+  ,"description":"Raises Special Defense of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"X Speed":{
+  "name":"X Speed"
+  ,"type":"battle_items"
+  ,"description":"Raises Speed of a Pokémon in battle."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yache Berry":{
+  "name":"Yache Berry"
+  ,"type":"berries"
+  ,"description":"Weakens a supereffective Ice-type attack against the holding Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yellow Apricorn":{
+  "name":"Yellow Apricorn"
+  ,"type":"general_items"
+  ,"description":"A yellow Apricorn. It has an invigorating scent."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yellow Flute":{
+  "name":"Yellow Flute"
+  ,"type":"general_items"
+  ,"description":"A toy flute made from yellow glass. A maniac will buy it for a high price."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yellow Nectar":{
+  "name":"Yellow Nectar"
+  ,"type":"hold_items"
+  ,"description":"A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yellow Scarf":{
+  "name":"Yellow Scarf"
+  ,"type":"general_items"
+  ,"description":"Raises holder's Tough aspect in a Contest."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Yellow Shard":{
+  "name":"Yellow Shard"
+  ,"type":"general_items"
+  ,"description":"A small yellow shard. It appears to be from some sort of implement made long ago."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Zap Plate":{
+  "name":"Zap Plate"
+  ,"type":"hold_items"
+  ,"description":"Increases power of Electric-type moves. Changes Arceus' type to Electric."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Zinc":{
+  "name":"Zinc"
+  ,"type":"medicine"
+  ,"description":"A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
+},
+"Zoom Lens":{
+  "name":"Zoom Lens"
+  ,"type":"hold_items"
+  ,"description":"Raises a move's accuracy if the holder moves after its target."
+  ,"price_buy":"$"
+  ,"price_sell":"$"
 }
